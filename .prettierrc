@@ -16,6 +16,6 @@
   "trailingComma": "es5",
   "useTabs": false,
   "vueIndentScriptAndStyle": false,
-  "filepath": "/home/mehran/Projects/portfolio-website/components/Container.tsx",
+  "filepath": "/home/saba/Projects/portfolio-website/components/Container.tsx",
   "parser": "typescript"
 }

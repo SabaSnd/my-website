@@ -23,7 +23,7 @@ const Home: NextPage<Props> = ({ pages, recentPosts }) => {
         <div className="flex flex-col sm:flex-row-reverse ">
           <div className="relative mb-8 sm:mb-0 mr-auto">
             <Image
-              alt="MohammadMehran Shahidi"
+              alt="Saba Safarnezhad"
               height={230}
               width={230}
               src={avatar}
@@ -38,15 +38,13 @@ const Home: NextPage<Props> = ({ pages, recentPosts }) => {
                 'tracking-tight mb-1 text-black dark:text-white'
               )}
             >
-              Mehran Shahidi
+              Saba Safarnezhad
             </h1>
             <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-              Software Engineer & Newbie Writer{' '}
+              CS Student & Data Scientist{' '}
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-16">
-              I study computer science, develop software projects, reflect on
-              life and write about them.
-            </p>
+              I study computer science, develop software projects, and write about my experience on my blog            </p>
           </div>
         </div>
         <h3

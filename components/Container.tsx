@@ -47,9 +47,9 @@ const Container: FC<ContainerProps> = ({ children, pages }) => {
   // After mounting, we have access to the theme
   useEffect(() => setMounted(true), [])
   const meta: any = {
-    title: 'MohammadMehran Shahidi - Software Engineer & Blogger',
+    title: 'Saba Safarnezhad - CS Student & Blogger',
     description: `In this website, I share useful content about Programming and some other general topics`,
-    image: 'https://res.cloudinary.com/m3hransh/image/upload/v1644916928/mehran/banner_ph4zrc.png',
+    image: 'https://res.cloudinary.com/dyeku4dt4/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1691059154/avator_pqhc9b.jpg?_s=public-apps',
     type: 'website',
   }
   return (
@@ -58,15 +58,15 @@ const Container: FC<ContainerProps> = ({ children, pages }) => {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://mehranshahidi.ir${router.asPath}`} />
-        <link rel="canonical" href={`https://mehranshahidi.ir${router.asPath}`} />
+        <meta property="og:url" content={`https://sabasafarnezhad.tech${router.asPath}`} />
+        <link rel="canonical" href={`https://sabasafarnezhad.tech${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Mehran Shahidi" />
+        <meta property="og:site_name" content="Saba Safarnezhad" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@m3hransh" />
+        <meta name="twitter:site" content="@Saba__snd" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />

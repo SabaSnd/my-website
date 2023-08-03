@@ -3,6 +3,6 @@ module.exports = {
   reactStrictMode: true,
   images: {
 
-    domains: ['mehranshahidi.ir', 'www.notion.so', 'www.mehranshahidi.ir', 'res.cloudinary.com']
+    domains: ['sabasafarnezhad.tech', 'www.notion.so', 'www.sabasafarnezhad.tech', 'res.cloudinary.com']
   }
 }
