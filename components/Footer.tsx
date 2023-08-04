@@ -22,7 +22,7 @@ const Footer: FC<FooterProps> = () => {
         )}
       />
       <SocialFollow />
-      <div className='text-sm'>© 2021-2022 Saba Safarnezhad</div>
+      <div className='text-sm'>© 2023-2024 Saba Safarnezhad</div>
     </footer>
   )
 }
